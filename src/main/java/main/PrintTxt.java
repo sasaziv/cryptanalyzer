@@ -3,8 +3,6 @@ package main;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
-import java.nio.file.Path;
-import java.util.Scanner;
 
 public class PrintTxt {
     public static void printTxt(String pathFile) {

@@ -30,8 +30,8 @@ public class ReadTxt {
     //    public static List<String> readTxt(String path) {
 //
 //        try (BufferedReader reader = new BufferedReader(new FileReader(path))) {
-//            String line = reader.readLine();
-//            while (line != null) {
+//            String line;
+//            while ((line = reader.readLine()) != null) {
 //                lines.add(line);
 //                line = reader.readLine();
 //            }
